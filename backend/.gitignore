@@ -1,0 +1,65 @@
+# Build outputs
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+*.userosscache
+*.sln.docstates
+
+# IDEs
+.vs/
+.vscode/
+
+# Local dev config
+appsettings.Development.json
+appsettings.*.local.json
+
+# Dependency directories
+packages/
+.nuget/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testsettings
+
+# Logs & debug
+*.log
+*.pdb
+*.psess
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+
+# Cache
+*.cache
+*.ncb
+*.ilk
+
+# Database files
+*.mdf
+*.ldf
+*.sdf
+__MigrationHistory/
+*.dbmdl
+*.bak
+
+# Rider specific
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+
+# Others
+*.tlog
+*.tmp
